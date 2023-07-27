@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Privacy"
+        tools:targetApi="31">
+        <activity
+            android:name=".madhu"
+            android:exported="false" />
+        <activity
+            android:name=".scrollupblur"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".suggetions"
+            android:exported="false"></activity>
+        <activity
+            android:name=".Recommended"
+            android:exported="false" />
+        <activity
+            android:name=".GetFreeAccount"
+            android:exported="false" />
+        <activity
+            android:name=".logintoscale"
+            android:exported="false" />
+        <activity
+            android:name=".loginpagedark"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".tredingsound"
+            android:exported="false" />
+        <activity
+            android:name=".calculator"
+            android:exported="true" />
+        <activity
+            android:name=".SearchView"
+            android:exported="false" />
+        <activity
+            android:name=".newpass"
+            android:exported="false" />
+        <activity
+            android:name=".msg"
+            android:exported="false" />
+        <activity
+            android:name=".testmadhu"
+            android:exported="false" />
+        <activity
+            android:name=".messages"
+            android:exported="false" />
+        <activity
+            android:name=".congratulation"
+            android:exported="false" />
+        <activity
+            android:name=".posteditpage"
+            android:exported="false" />
+        <activity
+            android:name=".Logout"
+            android:exported="false" />
+        <activity
+            android:name=".Report"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
