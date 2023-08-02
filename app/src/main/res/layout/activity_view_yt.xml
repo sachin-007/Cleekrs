@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark1"
+    tools:context=".viewYT">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            >
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vidsomething"
+                />
+            <TextView
+                android:id="@+id/timestampText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="#80000000"
+
+
+                android:text="4:04"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="10dp"
+                />
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textColor="@color/PureWhite"
+                android:text="Pehli Mohabbat - Darshan Raval - Darshan Raval First Song - Romantic song"
+                android:fontFamily="@font/urbanist_bold"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3,578 views"
+                />
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Premiered "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jul 1,2021"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#shirt @Hxmorphines"
+                android:layout_marginStart="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- ImageView for the icon -->
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/likee"
+                    />
+
+                <!-- TextView for the text -->
+                <TextView
+                    android:gravity="center"
+                    android:maxLength="10"
+                    android:textColor="@color/PureWhite"
+                    android:id="@android:id/text1"
+                    android:text="8.9K"
+                    android:fontFamily="@font/urbanist_regular"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- ImageView for the icon -->
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/dislike"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+
+                    />
+
+                <!-- TextView for the text -->
+                <TextView
+                    android:layout_gravity="center"
+                    android:textColor="@color/PureWhite"
+android:fontFamily="@font/urbanist_regular"
+                    android:gravity="center"
+                    android:maxLength="10"
+                    android:id="@android:id/text1"
+                    android:text="1K"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- ImageView for the icon -->
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/share"
+                    android:padding="10dp"
+                    />
+
+                <!-- TextView for the text -->
+                <TextView
+                    android:fontFamily="@font/urbanist_regular"
+                    android:gravity="center"
+                    android:textColor="@color/PureWhite"
+                    android:maxLength="10"
+                    android:layout_gravity="center"
+                    android:id="@android:id/text1"
+                    android:text="Share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- ImageView for the icon -->
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/downloadd"
+                    android:padding="10dp"
+                    />
+
+                <!-- TextView for the text -->
+                <TextView
+
+                    android:fontFamily="@font/urbanist_regular"
+                    android:gravity="center"
+                    android:textColor="@color/PureWhite"
+                    android:layout_gravity="center"
+                    android:maxLength="10"
+                    android:id="@android:id/text1"
+                    android:text="Download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- ImageView for the icon -->
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/savee"
+                    android:padding="10dp"
+                    />
+
+                <!-- TextView for the text -->
+                <TextView
+                    android:fontFamily="@font/urbanist_regular"
+                    android:textColor="@color/PureWhite"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:maxLength="10"
+                    android:id="@android:id/text1"
+                    android:text="Save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_margin="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/original_image1"
+
+                />
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:textColor="@color/PureWhite"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sunke sukoon mila"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:textColor="@color/PureWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Youtube"
+                        android:fontFamily="@font/urbanist_regular"
+                        android:layout_marginEnd="12dp"
+                        android:textSize="12sp"
+
+                        />
+                    <TextView
+                        android:textColor="@color/PureWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 Weeks ago"
+                        android:fontFamily="@font/urbanist_regular"
+                        android:layout_marginEnd="12dp"
+                        android:textSize="12sp"
+
+                        />
+                    <TextView
+                        android:textColor="@color/PureWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1M"
+                        android:fontFamily="@font/urbanist_regular"
+                        android:textSize="12sp"
+
+                        />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/more"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:text="SUBSCRIBE"
+                android:textColor="#FF0000"
+                android:fontFamily="@font/urbanist_semi_bold"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more"
+                />
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:fontFamily="@font/urbanist_semi_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Comments"
+                android:textColor="@color/PureWhite"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="149"
+                android:layout_marginStart="5dp"
+
+                android:textColor="@color/Greyscale500"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                >
+                <ImageView
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/more"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/original_image1"
+                />
+            <TextView
+                android:textColor="@color/PureWhite"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="You can collect your mark sheet of supplementary exam held in May-June 2023 on every Friday &amp; Saturday between 1:00 pm to 3:00 pm
+Exam Department"
+                android:fontFamily="@font/urbanist_regular"
+                android:maxLines="2"
+                android:layout_marginEnd="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/placehold"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14:30"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white"
+                    />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/original_image1"
+
+                    />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:textColor="@color/PureWhite"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Amazing honcky Trick Shots | Youtube"
+                        android:fontFamily="@font/celebes_semi_bold"
+                        android:textSize="12sp"
+                        />
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Youtube"
+                            android:fontFamily="@font/urbanist_regular"
+                            android:layout_marginEnd="12dp"
+                            android:textSize="12sp"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4 Weeks ago"
+                            android:fontFamily="@font/urbanist_regular"
+                            android:layout_marginEnd="12dp"
+                            android:textSize="12sp"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1M"
+                            android:fontFamily="@font/urbanist_regular"
+                            android:textSize="12sp"
+
+                            />
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/more"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/more"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
